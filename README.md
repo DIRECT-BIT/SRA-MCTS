@@ -33,7 +33,7 @@ In this work, we propose and validate the following findings:
 
 The overall workflow is as follows:
 <div align="center">
-  <img src="images/pipeline.jpg" />
+  <img src="images/pipeline.png" />
 </div>
 
 

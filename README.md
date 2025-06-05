@@ -1,5 +1,6 @@
 
 # SRA-MCTS: Self-driven Reasoning Augmentation with Monte Carlo Tree Search for Code Generation
+This repository contains the implementation of **SRA-MCTS**, a self-driven reasoning augmentation method that leverages Monte Carlo Tree Search (MCTS) to generate high-quality reasoning steps for code generation tasks.
 
 <div align="center">
   <img src="images/head.png" width="700" height="400" />
@@ -179,3 +180,16 @@ then
 This process produces the final fine-tuning dataset, which can be used for subsequent fine-tuning tasks. The open-source dataset files are available in the corresponding folders, and you can refer to their formats and content for guidance.
 
 Our inspiration comes from [ReST-MCTS*](https://arxiv.org/abs/2406.03816). The original method was designed to enhance a model's capabilities in mathematical reasoning, using Monte Carlo methods to derive the final results. Our approach extends this concept to the code domain, leveraging Monte Carlo to generate intermediate reasoning processes.
+
+# Citation
+If you use this work, please cite:
+```
+@article{xu2024sra,
+  title={SRA-MCTS: Self-driven Reasoning Aurmentation with Monte Carlo Tree Search for Enhanced Code Generation},
+  author={Xu, Bin and Lin, Yiguan and Li, Yinghao and others},
+  journal={arXiv preprint arXiv:2411.11053},
+  year={2024}
+}
+```
+# Acknowledgments
+This work was supported by the Major Research Plan of the National Natural Science Foundation of China (Grant No. 92370110).

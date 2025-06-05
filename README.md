@@ -33,9 +33,16 @@ In this work, we propose and validate the following findings:
 
 The overall workflow is as follows:
 <div align="center">
-  <img src="images/pipeline.png" />
+  <img src="images/pipeline.jpg" />
 </div>
 
+<div align="center">
+  <img src="images/mcts_new.png" />
+</div>
+
+<div align="center">
+  <img src="images/evaluation.png" />
+</div>
 
 # Experimental Results
 Through extensive experiments, we found that:
